@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+    AWS_MEDIA_BUCKET: udagram-madhavan-dev
+    AWS_PROFILE: default
+    AWS_REGION: us-east-2
+    JWT_SECRET: hello
+    POSTGRESS_DB_HOST: udagramrajdev
+    POSTGRESS_DB_NAME: udagramrajdev.cykbcxsrvjqy.us-east-2.rds.amazonaws.com
+    URL: http://localhost:8100
+metadata:
+    name: env-config
